@@ -123,7 +123,6 @@ void writePinState() {
     Serial.print(" set to ");
     Serial.println(pwmval);
   }
-  
 }
 
 
@@ -162,7 +161,7 @@ void loop() {
     writePinState();
     newData = false;
   }
-  //*******analog reads into Arduino, analog read values sent out in constant stream*******
+  //*******analog reads are sent out in constant stream if enabled*******
   if (analogStream) {
     int A0val = analogRead(A0); //read analog value from pin A0, store into variable A0val
     Serial.print("analog value is: ");
