@@ -13,7 +13,7 @@ message was correctly received.
 String data received by the Arduino is parsed into four parts:
 pin-number, pin-state (1 for HIGH, 0 for LOW ), PWM value (0-255), analogRead (1 to return the value, 0 if not used)
 
-  *Examples:
+  *Examples:*
 
   **Send digitalWrite command**
   To set digital pin 13 HIGH, send:
