@@ -1,5 +1,5 @@
 # ArduinoSerialParser
-Simple utility for controlling and reading I/O pins on an Arduino using simple commands sent over serial com port.  
+Utility for controlling and reading I/O pins on an Arduino using simple string commands sent over serial com port.  
 
 Incoming data to the Arduino is sent as a series of four comma-separated numerical characters bound by parenthesis.  
 The string is then parsed, and converted to integers to be used for selecting pin numbers, states, PWM values, and returning analogRead values.
