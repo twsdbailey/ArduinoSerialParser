@@ -10,15 +10,20 @@
   Examples:
 
   digitalWrite-
-    To set digital pin 13 HIGH, send:
+    To set digital pin 13 "HIGH", send:
 
         (13,1,0,0)
+        
+    To set digital pin 13 "LOW", send:
+    
+        (13,0,0,0)
 
   analogWrite-
       Use on Arduino Uno pins 3,5,6,9,10,11.
       To set PWM pin 3 to value of 150 (range is 0-255), send:
 
         (3,0,150,0)
+        
 
   analogRead-
       To retrieve an analog value from analog A0, the string data should be in the following format:
