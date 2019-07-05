@@ -44,6 +44,6 @@ incoming serial buffer on the Arduino.
 
 *Example:*
 
- **Turn on LED on pin 13, and set PWM value of pin 3 to 150**
+ Turn on LED on pin 13, and set PWM value of pin 3 to 150
  
       (13,1,0,0)(3,0,150,0)
