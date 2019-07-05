@@ -43,6 +43,6 @@ Multiple sets of commands can be sent at once, though doing this should done wit
 
 *Example:*
 
- Set digital pin 13 "HIGH", and set PWM value of pwm pin 3 to "150"
+ Set digital pin 13 "HIGH", and set PWM value on pwm pin 3 to "150"
  
       (13,1,0,0)(3,0,150,0)
