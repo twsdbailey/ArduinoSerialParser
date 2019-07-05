@@ -1,5 +1,5 @@
 /* Serial data parser for Arduino I/O pin control, v6
-   modified 7/4/2019 from source code written by Robin2 @ http://forum.arduino.cc/index.php?topic=396450
+   modified 6/1/2019 from source code written by Robin2 @ http://forum.arduino.cc/index.php?topic=396450
    by D. Bailey
 
 ********Incoming serial data***************
