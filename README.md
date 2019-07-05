@@ -39,8 +39,7 @@ pin-number, pin-state (1 for HIGH, 0 for LOW ), PWM value (0-255), analogRead (1
 
         (0,0,0,1)
 
-Multiple sets of commands can be sent at once, though the number of sets that can be sent at once will be limited to the 
-incoming serial buffer on the Arduino.
+Multiple sets of commands can be sent at once, though doing this should done with caution. The max number of sets that can be sent at once is untested. At some point, the incoming serial buffer on the Arduino will become full, and previously sent bytes of data will end-up getting pushed out of the buffer by the incoming data before it is parsed.  Sending just a few sets at once will not be an issue.
 
 *Example:*
 
