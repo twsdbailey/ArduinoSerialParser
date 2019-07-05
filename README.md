@@ -18,9 +18,13 @@ pin-number, pin-state (1 for HIGH, 0 for LOW ), PWM value (0-255), analogRead (1
 
   **Send digitalWrite command**
   
-  To set digital pin 13 HIGH, send:
+  To set digital pin 13 "HIGH", send:
 
         (13,1,0,0)
+        
+  To set digital pin 13 "LOW", send:
+   
+        (13,0,0,0)
 
   **Send analogWrite command**
   
