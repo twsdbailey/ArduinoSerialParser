@@ -24,14 +24,14 @@ pin-number, pin-state (1 for HIGH, 0 for LOW ), PWM value (0-255), analogRead (1
 
   **Send analogWrite command**
   
-      Use on Arduino Uno pins 3,5,6,9,10,11.
-      To set PWM pin 3 to value of 150 (range is 0-255), send:
+  Use on Arduino Uno pins 3,5,6,9,10,11.
+  To set PWM pin 3 to value of 150 (range is 0-255), send:
 
         (3,0,150,0)
 
   **Serial command to get analogRead value**
   
-      To retrieve an analog value from analog A0, the string data should be in the following format:
+  To retrieve an analog value from analog A0, the string data should be in the following format:
 
         (0,0,0,1)
 
