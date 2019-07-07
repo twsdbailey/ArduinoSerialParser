@@ -12,6 +12,7 @@ The comma-separated numerical characters are parsed into four parts:
 **PWM value** (0-255)
 
 **return analogRead** (1 to return the value, 0 if not used).
+
 Use with Serial Monitor, a terminal program such as PuTTY, or any other device capable of sending serial data
 
 
