@@ -2,7 +2,7 @@
 Control and read I/O pins on an Arduino by sending simple string commands over serial com port.
 
 Incoming data to the Arduino is sent as a series of four comma-separated numerical characters bound by parenthesis.  
-The string is then parsed, and converted to integers to be used for selecting pin numbers, states, PWM values, and returning analogRead values.  Use with Serial Monitor, a terminal program such as PuTTY, or any other device capable of sending serial data.
+The string is then parsed, and converted to integers to be used for selecting pin numbers, pin-state, PWM value, and returning analogRead values.  Use with Serial Monitor, a terminal program such as PuTTY, or any other device capable of sending serial data.
 
 This parser used in this code is adapted from example code written by Robin2 @ http://forum.arduino.cc/index.php?topic=396450
 
