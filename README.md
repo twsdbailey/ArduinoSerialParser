@@ -3,6 +3,8 @@ Control and read I/O pins on an Arduino by sending simple string commands over s
 
 Incoming data to the Arduino is sent as a series of four comma-separated numerical characters bound by parenthesis.  
 The comma-separated numerical characters are parsed into four parts: 
+
+
 **pin-number** (any valid I/O pin number)
 **pin-state** (1 for HIGH, 0 for LOW )
 **PWM value** (0-255)
