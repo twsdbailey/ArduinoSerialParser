@@ -6,8 +6,11 @@ The comma-separated numerical characters are parsed into four parts:
 
 
 **pin-number** (any valid I/O pin number)
+
 **pin-state** (1 for HIGH, 0 for LOW )
+
 **PWM value** (0-255)
+
 **return analogRead** (1 to return the value, 0 if not used).
 Use with Serial Monitor, a terminal program such as PuTTY, or any other device capable of sending serial data
 
